@@ -3,16 +3,17 @@ import { Link } from "react-router-dom";
 import { FaBars } from "react-icons/fa";
 import { links } from "../data";
 import logo from "../images/logo.png";
-
 import "../styles/Navbar.css";
 
 const Navbar = () => {
   const [showLinks, setShowLinks] = useState(false);
   const linksContainerRef = useRef(null);
   const linksRef = useRef(null);
+
   const toggleLinks = () => {
     setShowLinks(!showLinks);
   };
+
   useEffect(() => {
     const linksHeight = linksRef.current.getBoundingClientRect().height;
     if (showLinks) {
@@ -21,6 +22,7 @@ const Navbar = () => {
       linksContainerRef.current.style.height = "0px";
     }
   }, [showLinks]);
+
   return (
     <nav>
       <div className="nav-center">

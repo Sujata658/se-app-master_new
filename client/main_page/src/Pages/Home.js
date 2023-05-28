@@ -6,7 +6,6 @@ import Team from "../Home/pages_elements/Team";
 export default function Home() {
   return (
     <>
-    {(document.title = "ICTC")}
       <div className="banner"></div>
       <Intro />
       <Services />

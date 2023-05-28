@@ -119,3 +119,4 @@ export const social = [
 ];
 
 export default team;
+

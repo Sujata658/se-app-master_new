@@ -20,17 +20,17 @@ function MainPage() {
   return (
     <>
       <Navbar />
-      <Routes>
-        <Route exact path="" element={<Home />} />
-        <Route exact path="/gallery" element={<Gallery />} />
-        <Route exact path="/events" element={<Events />} />
-        <Route exact path="/Reservations" element={<Reservations />} />
-        <Route exact path="/contact" element={<Contact />} />
-        <Route exact path="/login" element={<Login />} />
-        <Route exact path="/next" element={<Next />} />
-        <Route path="/empdetails/:id" element={<DetailEvents />}></Route>
-        <Route exact path="/servicefront" element={<ServicesFront />} />
-      </Routes>
+        <Routes>
+          <Route exact path="" element={<Home />} />
+          <Route exact path="/gallery" element={<Gallery />} />
+          <Route exact path="/events" element={<Events />} />
+          <Route exact path="/Reservations" element={<Reservations />} />
+          <Route exact path="/contact" element={<Contact />} />
+          <Route exact path="/login" element={<Login />} />
+          <Route exact path="/next" element={<Next />} />
+          <Route path="/empdetails/:id" element={<DetailEvents />}></Route>
+          <Route exact path="/servicefront" element={<ServicesFront />} />
+        </Routes>
       <Footer />
     </>
   );

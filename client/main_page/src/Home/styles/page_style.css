@@ -106,6 +106,7 @@
 }
 .author {
   font-size: 1.5rem;
+  color: var(--main-text-color);
   padding: 0.8rem;
   text-transform: capitalize;
 }

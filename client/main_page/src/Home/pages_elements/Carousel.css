@@ -1,0 +1,15 @@
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-btn {
+  font-size: 1.5rem;
+  margin: 0 10px;
+}
+
+.carousel-image {
+    height: 80vh;
+  object-fit: cover;
+}

@@ -18,14 +18,7 @@
     margin: 1rem;
     text-align: justify;
 }
-.banner{
-    background-image: radial-gradient(rgba(88, 81, 81, 0),rgba(255, 255, 255, 0.192)
-        ), url('./Home/images/n.jpg');
-    background-position: center;
-    background-size:cover;
-    height: 100vh;
-    align-items: center;
-}
+
 @media screen and (min-width: 600px) {
     .flex-item{
     margin: 3rem;

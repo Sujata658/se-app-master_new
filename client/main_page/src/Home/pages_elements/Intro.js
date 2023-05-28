@@ -1,8 +1,10 @@
 import "../styles/page_style.css";
+import Carousel from "./carousel";
 
 const Intro = () => {
   return (
-    <section>
+    <>
+          <Carousel/>
         <div className="flex-intro">
           <div className="flex-item-intro">
             <h4> Introduction</h4>
@@ -21,7 +23,7 @@ const Intro = () => {
             </p>
           </div>
         </div>
-    </section>
+    </>
   );
 };
 

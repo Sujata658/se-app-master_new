@@ -25,7 +25,7 @@
 }
 .icon-services {
   font-size: 200%;
-  color: rgba(0, 0, 155, 0.74);
+  color: var(--main-bg-color);
 }
 .flex-item-services {
   margin: 1rem;
@@ -65,7 +65,7 @@
   text-transform: uppercase;
   padding: 0.1rem;
   font-weight: bold;
-  color: #00009b9f;
+  color: var(--main-bg-color);
   font-size: 0.75rem;
   margin: auto;
 }
@@ -75,7 +75,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #00028d;
+  background-color: var(--main-bg-color);
 
   padding: 40px 40px 15px 40px;
   color: white;

@@ -24,7 +24,7 @@ a {
   height: 0.2rem;
   width: 3rem;
   border-radius: 20%;
-  background: rgb(0, 0, 155, 0.623);
+  background: --main-bg-color;
   margin: 0rem auto 3.5rem;
 }
 .section {
@@ -35,7 +35,7 @@ a {
 h4 {
   font-size: 1.2rem;
 
-  color: #000068d0;
+  color:--main-bg-color;
 }
 p {
   font-size: 0.7rem;
@@ -45,7 +45,7 @@ p {
   h4 {
     font-size: 1.2rem;
     margin: 1rem;
-    color: #000068d0;
+    color: var(--main-bg-color);
   }
 
   body {
@@ -70,7 +70,7 @@ p {
   h4 {
     font-size: 2rem;
     margin: 1rem;
-    color: #000068d0;
+    color: --main-bg-color;
   }
   p {
     font-size: 1rem;

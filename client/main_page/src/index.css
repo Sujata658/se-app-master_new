@@ -30,7 +30,7 @@ a {
 h4 {
   font-size: 1.2rem;
 
-  color:--main-bg-color;
+  color:--main-text-color;
 }
 p {
   font-size: 0.7rem;
@@ -40,7 +40,7 @@ p {
   h4 {
     font-size: 1.2rem;
     margin: 1rem;
-    color: var(--main-bg-color);
+    color: var(--main-text-color);
   }
 
   body {
@@ -65,7 +65,7 @@ p {
   h4 {
     font-size: 2rem;
     margin: 1rem;
-    color: --main-bg-color;
+    color: --main-text-color;
   }
   p {
     font-size: 1rem;

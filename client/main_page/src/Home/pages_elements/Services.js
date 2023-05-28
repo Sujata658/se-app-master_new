@@ -12,7 +12,7 @@ const Services = () => {
             const { id, title, icon, text } = service;
             return (
               <div key={id} className='flex-item-services'>
-                <h4 className="type">{title}</h4>
+                <h4 className="service_type">{title}</h4>
                 <p className="icon-services">{icon}</p>
                 <p className="description">{text}</p>
               </div>
